@@ -1,0 +1,57 @@
+Question 1
+--------------------------------------------------------------
+--------------------------------------------------------------
+Iteration Number 1
+0 |50 |0 |
+
+0 |40 |100 |
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Iteration Number 2
+40 |50 |0 |
+
+32 |80 |100 |
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Iteration Number 3
+40 |64 |0 |
+
+64 |80 |100 |
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Iteration Number 4
+51.2 |64 |0 |
+
+64 |80 |100 |
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Iteration Number 5
+51.2 |64 |0 |
+
+64 |80 |100 |
+
+The iterations required for convergence are 5
+The V* for iteration 4 and 5 are the same hence they converge.
+
+State Number :1  V*: 51.2
+State Number :2  V*: 64
+State Number :3  V*: 0
+State Number :4  V*: 64
+State Number :5  V*: 80
+State Number :6  V*: 100
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+
+Question 2
+The optimal policy to follow is
+S1->S4->S5->S6->S3
+
+
+Question 3
+ Yes.  You can multiply by a scalar each immediate reward. Then V* is also multiplied by scalar and π∗ remains unchanged
+ For example.  You can multiply by a two each immediate reward. Then V* is also multiplied by two and π∗ remains unchanged
